@@ -1,0 +1,32 @@
+[
+    {
+        "task": "LoadSpuPrice",
+        "output_fields": [],
+        "input_fields": [
+            "F001",
+            "F002",
+            "F003"
+        ],
+        "context_fields": [
+            "F001",
+            "F002"
+        ]
+    },
+    {
+        "task": "LoadSpuDiscountPrice",
+        "output_fields": [
+            "T001"
+        ],
+        "input_fields": [
+            "F001",
+            "F002"
+        ],
+        "context_fields": [
+        ]
+    }
+]
+
+
+
+
+

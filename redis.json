@@ -1,0 +1,30 @@
+{
+    "scene":1001,
+    "output_fields": [
+        {
+          "field_id": "F001",
+          "name": "销量",
+          "type": "SaleCount"
+        },
+        {
+          "field_id": "F002",
+          "name": "商品原价",
+          "type": "Price"
+        },
+        {
+          "field_id": "F003",
+          "name": "商品折扣价",
+          "type": "DiscountPrice"
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
