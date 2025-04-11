@@ -152,7 +152,7 @@ func (s *SceneEngine) Exec() {
 				panic(fmt.Sprintf("任务 %s 未找到", node.TaskName))
 			}
 
-			outputs, err := runnableNode.task.RunFunc(context, inputs)
+			outputs, err := runnableNode.task.RunnableNode.Run(context, inputs)
 			if err != nil {
 				panic(fmt.Sprintf("任务 %s 执行失败: %v", node.TaskName, err))
 			}
